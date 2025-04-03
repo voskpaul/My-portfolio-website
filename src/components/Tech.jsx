@@ -15,7 +15,7 @@ const Tech = () => {
       {/* Animated Title */}
       <motion.h1
         className="text-4xl font-light text-white md:text-6xl cursor-pointer"
-        whileHover={{ scale: 1.1, rotate: 3 }}
+        whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
         Technologies
@@ -46,4 +46,4 @@ const Tech = () => {
   );
 };
 
-export default Tech;
+export default Tech;
